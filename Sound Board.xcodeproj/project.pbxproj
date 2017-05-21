@@ -13,6 +13,7 @@
 		2879EFB21ECFF7B5008CEADC /* Sound_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2879EFB01ECFF7B5008CEADC /* Sound_Board.xcdatamodeld */; };
 		2879EFB41ECFF7B5008CEADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2879EFB31ECFF7B5008CEADC /* Assets.xcassets */; };
 		2879EFB71ECFF7B5008CEADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2879EFB51ECFF7B5008CEADC /* LaunchScreen.storyboard */; };
+		2879EFBF1ECFFC46008CEADC /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2879EFBE1ECFFC46008CEADC /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2879EFB31ECFF7B5008CEADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2879EFB61ECFF7B5008CEADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2879EFB81ECFF7B5008CEADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2879EFBE1ECFFC46008CEADC /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2879EFA91ECFF7B5008CEADC /* AppDelegate.swift */,
 				2879EFAB1ECFF7B5008CEADC /* ViewController.swift */,
 				2879EFAD1ECFF7B5008CEADC /* Main.storyboard */,
+				2879EFBE1ECFFC46008CEADC /* SoundViewController.swift */,
 				2879EFB31ECFF7B5008CEADC /* Assets.xcassets */,
 				2879EFB51ECFF7B5008CEADC /* LaunchScreen.storyboard */,
 				2879EFB81ECFF7B5008CEADC /* Info.plist */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2879EFBF1ECFFC46008CEADC /* SoundViewController.swift in Sources */,
 				2879EFB21ECFF7B5008CEADC /* Sound_Board.xcdatamodeld in Sources */,
 				2879EFAC1ECFF7B5008CEADC /* ViewController.swift in Sources */,
 				2879EFAA1ECFF7B5008CEADC /* AppDelegate.swift in Sources */,
