@@ -12,7 +12,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="Sound_Board" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -42,7 +41,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="A66-Xw-v6w" id="CAI-hK-ZQM"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="78" y="-91"/>
         </scene>
@@ -96,7 +99,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="gWl-Ma-2pn" id="bDz-f3-h20"/>
                         <outlet property="nameTextField" destination="zWT-ze-s40" id="zAj-2f-HGJ"/>
+                        <outlet property="playButton" destination="heU-ig-IQs" id="SVV-zC-qeh"/>
                         <outlet property="recordButton" destination="K8Y-ZO-FVU" id="fLx-hl-Cyy"/>
                     </connections>
                 </viewController>
